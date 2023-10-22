@@ -77,7 +77,7 @@
 
   (sheet (at 135.89 165.1) (size 43.18 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 194 1.0000))
     (uuid 4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b)
     (property "Sheetname" "ST-Link" (at 135.89 164.3884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
