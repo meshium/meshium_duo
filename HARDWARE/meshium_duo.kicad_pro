@@ -569,6 +569,10 @@
     [
       "4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b",
       "ST-Link"
+    ],
+    [
+      "191f4f98-48ae-4893-bf0a-75f1c9b9512d",
+      "USB"
     ]
   ],
   "text_variables": {}
