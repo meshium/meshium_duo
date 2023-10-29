@@ -1316,7 +1316,7 @@
   (symbol (lib_id "Memory_RAM:MT48LC16M16A2P") (at 185.42 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a631ee0-23e9-4828-a722-afe3b8cf754b)
-    (property "Reference" "U3" (at 187.6141 43.18 0)
+    (property "Reference" "U6" (at 187.6141 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MT48LC16M16A2P" (at 187.6141 45.72 0)
@@ -1385,7 +1385,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "U3") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1394,7 +1394,7 @@
   (symbol (lib_id "power:GND") (at 182.88 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 188aadbe-5f21-45e4-8643-3c8757eb03b0)
-    (property "Reference" "#PWR06" (at 182.88 125.73 0)
+    (property "Reference" "#PWR053" (at 182.88 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 124.46 0)
@@ -1410,7 +1410,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -1419,7 +1419,7 @@
   (symbol (lib_id "power:GND") (at 82.55 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23496bc6-d350-49fa-bdc6-eebf16dac7ef)
-    (property "Reference" "#PWR03" (at 82.55 97.79 0)
+    (property "Reference" "#PWR050" (at 82.55 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 96.52 0)
@@ -1435,7 +1435,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -1444,7 +1444,7 @@
   (symbol (lib_id "power:+3V3") (at 82.55 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2708cfa7-ff24-411f-9a4e-f1fcfd33b5c8)
-    (property "Reference" "#PWR02" (at 82.55 63.5 0)
+    (property "Reference" "#PWR049" (at 82.55 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 82.55 54.61 0)
@@ -1460,7 +1460,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -1469,7 +1469,7 @@
   (symbol (lib_id "Device:C_Small") (at 231.14 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 562f1328-c601-41ce-92c9-f52f61702c48)
-    (property "Reference" "C4" (at 233.68 105.4163 0)
+    (property "Reference" "C34" (at 233.68 105.4163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 233.68 107.9563 0)
@@ -1486,7 +1486,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "C4") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -1495,7 +1495,7 @@
   (symbol (lib_id "power:+3V3") (at 182.88 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62ee9f6d-ee77-4b14-9a74-c04f5df27b5d)
-    (property "Reference" "#PWR05" (at 182.88 46.99 0)
+    (property "Reference" "#PWR052" (at 182.88 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 182.88 38.1 0)
@@ -1511,7 +1511,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -1520,7 +1520,7 @@
   (symbol (lib_id "Device:C_Small") (at 87.63 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ed02f00-0c8b-4f39-9dc0-041f1e1c4833)
-    (property "Reference" "C1" (at 87.63 57.15 90)
+    (property "Reference" "C31" (at 87.63 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1u" (at 87.63 59.69 90)
@@ -1537,7 +1537,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "C1") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -1546,7 +1546,7 @@
   (symbol (lib_id "power:GND") (at 213.36 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d2be2af-74ad-48a5-aec4-77f02a2547a4)
-    (property "Reference" "#PWR07" (at 213.36 119.38 0)
+    (property "Reference" "#PWR054" (at 213.36 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 118.11 0)
@@ -1562,7 +1562,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1571,7 +1571,7 @@
   (symbol (lib_id "power:+3V3") (at 231.14 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a312c5a3-4d7c-4662-90e6-856538285dd1)
-    (property "Reference" "#PWR08" (at 231.14 104.14 0)
+    (property "Reference" "#PWR055" (at 231.14 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 231.14 95.25 0)
@@ -1587,7 +1587,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -1596,7 +1596,7 @@
   (symbol (lib_id "Device:C_Small") (at 222.25 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a812c1f6-e9cc-466d-a612-53f3c3e35081)
-    (property "Reference" "C3" (at 224.79 105.4163 0)
+    (property "Reference" "C33" (at 224.79 105.4163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 224.79 107.9563 0)
@@ -1613,7 +1613,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "C3") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -1622,7 +1622,7 @@
   (symbol (lib_id "meshium_duo:MX25R3235FM1xx0") (at 82.55 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8afb2ae-4325-4c45-9843-f7702d4f22e5)
-    (property "Reference" "U2" (at 91.44 74.93 0)
+    (property "Reference" "U5" (at 91.44 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX25L25635F" (at 91.44 77.47 0)
@@ -1645,7 +1645,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "U2") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1654,7 +1654,7 @@
   (symbol (lib_id "power:GND") (at 91.44 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc6899f5-03b0-4d58-aa68-f269e290a4a2)
-    (property "Reference" "#PWR04" (at 97.79 62.23 0)
+    (property "Reference" "#PWR051" (at 97.79 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 62.23 90)
@@ -1670,7 +1670,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -1679,7 +1679,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5b3d04b-f126-4f7c-a1e1-3f6ccdbca563)
-    (property "Reference" "C2" (at 215.9 105.4163 0)
+    (property "Reference" "C32" (at 215.9 105.4163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 215.9 107.9563 0)
@@ -1696,7 +1696,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4650415e-d772-4f66-8f38-5713f833944e"
-          (reference "C2") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )

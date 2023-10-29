@@ -5,6 +5,66 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x02_Pin" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x02, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x02_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0.8636 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector_Generic:Conn_02x08_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 10.16 0)
         (effects (font (size 1.27 1.27)))
@@ -2190,8 +2250,14 @@
     )
   )
 
+  (junction (at 118.11 179.07) (diameter 0) (color 0 0 0 0)
+    (uuid 01c19757-be7a-4f16-811f-e2fbf2ca62f9)
+  )
   (junction (at 257.81 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 10de3268-b3bc-4706-b656-7e529282e88d)
+  )
+  (junction (at 125.73 179.07) (diameter 0) (color 0 0 0 0)
+    (uuid 1435e2d3-f551-46b1-8eec-e612c480201c)
   )
   (junction (at 240.03 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 19f0fcb7-ff09-4fbb-b5cc-19fe111177fa)
@@ -2201,6 +2267,9 @@
   )
   (junction (at 184.15 125.73) (diameter 0) (color 0 0 0 0)
     (uuid 3c33eb08-4c84-4761-a89c-09dc46a29574)
+  )
+  (junction (at 115.57 179.07) (diameter 0) (color 0 0 0 0)
+    (uuid 4a583148-92e7-4ec9-80ea-5d30eeb16607)
   )
   (junction (at 97.79 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 50001dca-6905-4526-b2eb-ca8bfcc3d7e8)
@@ -2348,6 +2417,10 @@
     (stroke (width 0) (type default))
     (uuid 1d0794b6-b157-4678-a2d8-6a21725f23d7)
   )
+  (wire (pts (xy 118.11 179.07) (xy 115.57 179.07))
+    (stroke (width 0) (type default))
+    (uuid 1d802f91-76da-492c-991c-de07a21b5f01)
+  )
   (wire (pts (xy 184.15 125.73) (xy 184.15 134.62))
     (stroke (width 0) (type default))
     (uuid 20ad09f0-8665-466d-8721-88ed4f752874)
@@ -2363,6 +2436,14 @@
   (wire (pts (xy 240.03 59.69) (xy 240.03 97.79))
     (stroke (width 0) (type default))
     (uuid 22be2b94-3fdd-440f-9751-349ff5369a79)
+  )
+  (wire (pts (xy 125.73 177.8) (xy 125.73 179.07))
+    (stroke (width 0) (type default))
+    (uuid 22f2c741-6027-44f8-ab79-20647f2faabe)
+  )
+  (wire (pts (xy 128.27 179.07) (xy 128.27 177.8))
+    (stroke (width 0) (type default))
+    (uuid 23d7572c-79b5-458e-ac83-9f6892360cb8)
   )
   (wire (pts (xy 54.61 137.16) (xy 66.04 137.16))
     (stroke (width 0) (type default))
@@ -2383,6 +2464,10 @@
   (wire (pts (xy 30.48 78.74) (xy 41.91 78.74))
     (stroke (width 0) (type default))
     (uuid 2b112018-17c4-496e-be39-4f7f54ed1d05)
+  )
+  (wire (pts (xy 115.57 179.07) (xy 115.57 180.34))
+    (stroke (width 0) (type default))
+    (uuid 2b296cab-ed8e-4548-98af-35911fe45a4f)
   )
   (wire (pts (xy 113.03 64.77) (xy 114.3 64.77))
     (stroke (width 0) (type default))
@@ -2411,6 +2496,10 @@
   (wire (pts (xy 255.27 140.97) (xy 257.81 140.97))
     (stroke (width 0) (type default))
     (uuid 33b0fc12-2aca-459b-9421-ad98f9fa58c7)
+  )
+  (wire (pts (xy 125.73 179.07) (xy 128.27 179.07))
+    (stroke (width 0) (type default))
+    (uuid 356a9812-06b1-4dea-b8d5-fe1c8ab75f08)
   )
   (wire (pts (xy 39.37 46.99) (xy 39.37 55.88))
     (stroke (width 0) (type default))
@@ -2488,6 +2577,15 @@
     (stroke (width 0) (type default))
     (uuid 50bae6a9-35f2-478d-9f08-6539ac5331c2)
   )
+  (bus (pts (xy 39.37 168.91) (xy 55.88 168.91))
+    (stroke (width 0) (type default))
+    (uuid 50fcdd78-2161-49d4-9738-1e61d5ab206c)
+  )
+  (bus (pts (xy 39.37 171.45) (xy 55.88 171.45))
+    (stroke (width 0) (type default))
+    (uuid 51a09ecc-e385-4d5f-af14-b483cf9f8a6e)
+  )
+
   (wire (pts (xy 240.03 46.99) (xy 240.03 57.15))
     (stroke (width 0) (type default))
     (uuid 524b1ee5-e672-41d1-abd2-fb770fdf97a0)
@@ -2508,6 +2606,11 @@
     (stroke (width 0) (type default))
     (uuid 552285dc-1f16-465d-9374-78e4299794d7)
   )
+  (bus (pts (xy 39.37 176.53) (xy 55.88 176.53))
+    (stroke (width 0) (type default))
+    (uuid 56098297-5405-4ab3-b881-6069947cde72)
+  )
+
   (wire (pts (xy 199.39 57.15) (xy 203.2 57.15))
     (stroke (width 0) (type default))
     (uuid 59cbe553-a105-4933-afe8-3420d68d4b7a)
@@ -2624,6 +2727,11 @@
     (stroke (width 0) (type default))
     (uuid 867610e1-22de-4267-8776-ce5e16f64410)
   )
+  (bus (pts (xy 39.37 166.37) (xy 55.88 166.37))
+    (stroke (width 0) (type default))
+    (uuid 87312bdf-4f88-475a-a2f7-398f1de5d275)
+  )
+
   (wire (pts (xy 38.1 86.36) (xy 41.91 86.36))
     (stroke (width 0) (type default))
     (uuid 87d9ca2d-2d7c-45cf-b78e-fca33eef4efc)
@@ -2632,11 +2740,11 @@
     (stroke (width 0) (type default))
     (uuid 8d2258d5-d135-4e8f-b7e0-9997aa9a7990)
   )
-  (wire (pts (xy 30.48 184.15) (xy 46.99 184.15))
+  (wire (pts (xy 39.37 186.69) (xy 55.88 186.69))
     (stroke (width 0) (type default))
     (uuid 8dedf1c2-6561-44d0-a339-5091d2ba34a1)
   )
-  (wire (pts (xy 30.48 181.61) (xy 46.99 181.61))
+  (wire (pts (xy 39.37 184.15) (xy 55.88 184.15))
     (stroke (width 0) (type default))
     (uuid 8f030956-cd25-488e-a3e4-7d417a4cf4d0)
   )
@@ -2716,6 +2824,11 @@
     (stroke (width 0) (type default))
     (uuid ad322185-6c0a-4176-8a8a-15d6dca7e286)
   )
+  (bus (pts (xy 39.37 173.99) (xy 55.88 173.99))
+    (stroke (width 0) (type default))
+    (uuid ae328267-9e3d-4956-8697-e51e1e9fb68a)
+  )
+
   (wire (pts (xy 30.48 132.08) (xy 41.91 132.08))
     (stroke (width 0) (type default))
     (uuid b02f04eb-2b83-4127-8592-8fee83b36cfd)
@@ -2764,6 +2877,11 @@
     (stroke (width 0) (type default))
     (uuid bef9742e-a825-40f3-b96e-43b763653126)
   )
+  (bus (pts (xy 39.37 179.07) (xy 55.88 179.07))
+    (stroke (width 0) (type default))
+    (uuid c06bd019-5c66-49c8-89e1-9160d9bf8fdd)
+  )
+
   (wire (pts (xy 186.69 97.79) (xy 170.18 97.79))
     (stroke (width 0) (type default))
     (uuid c3280a82-7fff-4f87-8334-01eefc48c4d1)
@@ -2880,9 +2998,17 @@
     (stroke (width 0) (type default))
     (uuid e817b77c-0135-4b22-b32a-12636e8004d6)
   )
+  (wire (pts (xy 118.11 177.8) (xy 118.11 179.07))
+    (stroke (width 0) (type default))
+    (uuid e9766ed6-4787-4690-a0aa-288b10541753)
+  )
   (wire (pts (xy 257.81 140.97) (xy 257.81 115.57))
     (stroke (width 0) (type default))
     (uuid eb8d30b2-225d-4d1a-9443-208bd9437ecd)
+  )
+  (wire (pts (xy 118.11 179.07) (xy 125.73 179.07))
+    (stroke (width 0) (type default))
+    (uuid eb93b8f0-ae0c-4f0f-b82f-c8863a9e41e6)
   )
   (wire (pts (xy 175.26 62.23) (xy 186.69 62.23))
     (stroke (width 0) (type default))
@@ -2923,6 +3049,10 @@
   (wire (pts (xy 231.14 105.41) (xy 242.57 105.41))
     (stroke (width 0) (type default))
     (uuid f6820736-54cb-436e-8082-785d6cdd5621)
+  )
+  (wire (pts (xy 115.57 179.07) (xy 115.57 177.8))
+    (stroke (width 0) (type default))
+    (uuid f8b9d3e3-95ee-48ac-b019-8a10f0bdf920)
   )
   (wire (pts (xy 54.61 127) (xy 66.04 127))
     (stroke (width 0) (type default))
@@ -3285,7 +3415,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c1bd2f7c-9df3-4ff8-95b5-feaa0cb2f5e8)
   )
-  (label "BOOT0" (at 46.99 181.61 180) (fields_autoplaced)
+  (label "BOOT0" (at 55.88 184.15 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c9470e68-337a-476e-9a3d-acf13511b396)
   )
@@ -3349,7 +3479,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e75416e5-096f-47f1-8592-4e604b057f6a)
   )
-  (label "NRST" (at 46.99 184.15 180) (fields_autoplaced)
+  (label "NRST" (at 55.88 186.69 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ed00493f-2d85-41d3-957a-df01d760f724)
   )
@@ -3390,35 +3520,35 @@
     (uuid ff27a47f-b4bf-478a-a3e5-8328609ec23e)
   )
 
-  (hierarchical_label "PC[0..15]" (shape bidirectional) (at 30.48 167.64 180) (fields_autoplaced)
+  (hierarchical_label "PC[0..15]" (shape bidirectional) (at 39.37 171.45 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 081546fd-3edc-4623-a85d-24a36ae69116)
   )
-  (hierarchical_label "BOOT0" (shape passive) (at 30.48 181.61 180) (fields_autoplaced)
+  (hierarchical_label "BOOT0" (shape passive) (at 39.37 184.15 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 73a7cc4f-8ee1-4d25-9b11-f65bfcdb1ea4)
   )
-  (hierarchical_label "PD[0..15]" (shape bidirectional) (at 30.48 170.18 180) (fields_autoplaced)
+  (hierarchical_label "PD[0..15]" (shape bidirectional) (at 39.37 173.99 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7eb915ff-1d28-4284-a6dc-4e5e54692dd7)
   )
-  (hierarchical_label "PE[0..15]" (shape bidirectional) (at 30.48 172.72 180) (fields_autoplaced)
+  (hierarchical_label "PE[0..15]" (shape bidirectional) (at 39.37 176.53 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 859ff6a1-269c-4daa-b636-0282aabafbf6)
   )
-  (hierarchical_label "NRST" (shape passive) (at 30.48 184.15 180) (fields_autoplaced)
+  (hierarchical_label "NRST" (shape passive) (at 39.37 186.69 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a06e2948-f664-45f1-956e-38b5a2f0ff72)
   )
-  (hierarchical_label "PG[0..15]" (shape bidirectional) (at 30.48 175.26 180) (fields_autoplaced)
+  (hierarchical_label "PG[0..15]" (shape bidirectional) (at 39.37 179.07 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b3f27380-6538-482f-a60f-c72cbe237717)
   )
-  (hierarchical_label "PB[0..15]" (shape bidirectional) (at 30.48 165.1 180) (fields_autoplaced)
+  (hierarchical_label "PB[0..15]" (shape bidirectional) (at 39.37 168.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid dc51e83d-8e07-49fd-8aaf-843c891ebc76)
   )
-  (hierarchical_label "PA[0..15]" (shape bidirectional) (at 30.48 162.56 180) (fields_autoplaced)
+  (hierarchical_label "PA[0..15]" (shape bidirectional) (at 39.37 166.37 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f287326e-90d5-490b-85e2-4b5734d61596)
   )
@@ -3426,7 +3556,7 @@
   (symbol (lib_id "meshium_duo:VBAT") (at 27.94 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 084d9fb6-5dae-4aa8-99d8-a025fa7e1270)
-    (property "Reference" "#PWR0106" (at 31.75 91.44 0)
+    (property "Reference" "#PWR0123" (at 31.75 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBAT" (at 24.13 91.44 90)
@@ -3442,7 +3572,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -3451,7 +3581,7 @@
   (symbol (lib_id "power:GNDA") (at 176.53 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10465e0d-e62a-4da7-8cb1-80a50edb77db)
-    (property "Reference" "#PWR089" (at 176.53 85.09 0)
+    (property "Reference" "#PWR0141" (at 176.53 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 176.53 86.36 0)
@@ -3467,7 +3597,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -3476,7 +3606,7 @@
   (symbol (lib_id "power:GND") (at 113.03 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f2dd8e8-fa73-4623-92c8-d9acfabfd78b)
-    (property "Reference" "#PWR083" (at 106.68 120.65 0)
+    (property "Reference" "#PWR0137" (at 106.68 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 120.65 90)
@@ -3492,7 +3622,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -3501,7 +3631,7 @@
   (symbol (lib_id "meshium_duo:VIN") (at 104.14 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24b674d5-6a1b-421e-9ee9-a8eab72827db)
-    (property "Reference" "#PWR0108" (at 107.95 67.31 0)
+    (property "Reference" "#PWR0132" (at 107.95 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VIN" (at 100.33 67.31 90)
@@ -3517,7 +3647,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -3526,7 +3656,7 @@
   (symbol (lib_id "power:+5V") (at 113.03 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24e47b1b-e826-48ad-b574-256faa3d2022)
-    (property "Reference" "#PWR079" (at 116.84 59.69 0)
+    (property "Reference" "#PWR0135" (at 116.84 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 109.22 59.69 90)
@@ -3542,7 +3672,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -3551,7 +3681,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x37_Odd_Even") (at 247.65 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30c58a17-3b19-4968-81e8-3a4e25bd7520)
-    (property "Reference" "J16" (at 248.92 45.72 0)
+    (property "Reference" "J19" (at 248.92 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x37_Odd_Even" (at 248.92 45.72 0)
@@ -3640,7 +3770,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "J16") (unit 1)
+          (reference "J19") (unit 1)
         )
       )
     )
@@ -3649,7 +3779,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x37_Odd_Even") (at 46.99 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32fd631d-d4f4-4eac-8bf5-c1998455beac)
-    (property "Reference" "J17" (at 48.26 46.99 0)
+    (property "Reference" "J12" (at 48.26 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x37_Odd_Even" (at 48.26 46.99 0)
@@ -3738,7 +3868,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "J17") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -3747,7 +3877,7 @@
   (symbol (lib_id "power:GND") (at 203.2 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33dd8eb1-b498-4efd-b370-e05fc8bca7c4)
-    (property "Reference" "#PWR091" (at 209.55 118.11 0)
+    (property "Reference" "#PWR0145" (at 209.55 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 118.11 90)
@@ -3763,7 +3893,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -3772,7 +3902,7 @@
   (symbol (lib_id "power:VDDA") (at 182.88 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4640d63f-ab0b-4b6f-9e91-408581b3cc60)
-    (property "Reference" "#PWR090" (at 182.88 95.25 0)
+    (property "Reference" "#PWR0142" (at 182.88 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 182.88 86.36 0)
@@ -3788,7 +3918,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -3797,7 +3927,7 @@
   (symbol (lib_id "power:+3V3") (at 78.74 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4eba0974-5fb0-4282-acb4-a3717c633423)
-    (property "Reference" "#PWR0102" (at 82.55 33.02 0)
+    (property "Reference" "#PWR0129" (at 82.55 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 74.93 33.02 90)
@@ -3813,7 +3943,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -3822,7 +3952,7 @@
   (symbol (lib_id "meshium_duo:IOREF") (at 101.6 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5298dbfd-2ed5-4f6e-86ec-7bc98cb96c64)
-    (property "Reference" "#PWR0104" (at 101.6 34.29 0)
+    (property "Reference" "#PWR0131" (at 101.6 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "IOREF" (at 101.6 25.4 0)
@@ -3838,7 +3968,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -3847,7 +3977,7 @@
   (symbol (lib_id "meshium_duo:+3V3_PER") (at 78.74 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b7f4f21-342c-4bb1-b2b9-504d7473b043)
-    (property "Reference" "#PWR0103" (at 82.55 36.83 0)
+    (property "Reference" "#PWR0130" (at 82.55 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3_PER" (at 74.93 36.83 90)
@@ -3863,7 +3993,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -3872,7 +4002,7 @@
   (symbol (lib_id "power:VDD") (at 39.37 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bbd4f3d-1fb3-4350-9d32-469d89c3bacf)
-    (property "Reference" "#PWR098" (at 39.37 50.8 0)
+    (property "Reference" "#PWR0124" (at 39.37 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 39.37 41.91 0)
@@ -3888,7 +4018,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -3897,7 +4027,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 33.02 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ef94560-d3ff-4993-9ce7-1343167fb3b6)
-    (property "Reference" "JP9" (at 26.67 85.09 0)
+    (property "Reference" "JP?" (at 26.67 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 33.02 82.55 0)
@@ -3914,10 +4044,10 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP9") (unit 1)
+          (reference "JP?") (unit 1)
         )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "JP46") (unit 1)
+          (reference "JP41") (unit 1)
         )
       )
     )
@@ -3926,7 +4056,7 @@
   (symbol (lib_id "power:GND") (at 184.15 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6711006b-f882-4f10-bd0a-f8cb1fd46f0f)
-    (property "Reference" "#PWR092" (at 184.15 140.97 0)
+    (property "Reference" "#PWR0143" (at 184.15 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 139.7 0)
@@ -3942,7 +4072,39 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0143") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 128.27 172.72 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6ec2ec36-7766-4180-9482-f73eb6a5312f)
+    (property "Reference" "J?" (at 129.54 173.355 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x02_Pin" (at 130.81 173.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 128.27 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 128.27 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 16b763f3-77a3-42de-b606-fb0e25351717))
+    (pin "2" (uuid 8f3f4541-9925-434c-bd4b-48367c6287f6))
+    (instances
+      (project "meshium_duo"
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
+          (reference "J?") (unit 1)
+        )
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
+          (reference "J?") (unit 1)
+        )
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -3951,7 +4113,7 @@
   (symbol (lib_id "power:GNDA") (at 260.35 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71ed962d-3633-4571-9f50-4c80156e287a)
-    (property "Reference" "#PWR096" (at 266.7 87.63 0)
+    (property "Reference" "#PWR0149" (at 266.7 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 264.16 87.63 90)
@@ -3967,7 +4129,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -3976,7 +4138,7 @@
   (symbol (lib_id "power:GND") (at 170.18 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d011fb2-b25a-41d8-a2b5-5756d750d97d)
-    (property "Reference" "#PWR088" (at 170.18 85.09 0)
+    (property "Reference" "#PWR0140" (at 170.18 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 86.36 0)
@@ -3992,7 +4154,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -4001,7 +4163,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x17_Odd_Even") (at 191.77 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96a4e898-210a-40a9-a26b-9386df8f738f)
-    (property "Reference" "J15" (at 193.04 88.9 0)
+    (property "Reference" "J18" (at 193.04 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x17_Odd_Even" (at 193.04 88.9 0)
@@ -4050,7 +4212,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "J15") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -4059,7 +4221,7 @@
   (symbol (lib_id "meshium_duo:IOREF") (at 113.03 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9eceeee6-bccf-4844-93b7-457dffb90908)
-    (property "Reference" "#PWR0107" (at 113.03 49.53 0)
+    (property "Reference" "#PWR0133" (at 113.03 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "IOREF" (at 113.03 40.64 0)
@@ -4075,7 +4237,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -4084,7 +4246,7 @@
   (symbol (lib_id "meshium_duo:IOREF") (at 66.04 63.5 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f4a806e-0538-431f-b524-5284142e1ade)
-    (property "Reference" "#PWR0105" (at 62.23 63.5 0)
+    (property "Reference" "#PWR0128" (at 62.23 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "IOREF" (at 69.85 63.5 90)
@@ -4100,7 +4262,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -4109,7 +4271,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 90.17 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a64b86ec-2c30-4391-a83b-4d2e46c4a63f)
-    (property "Reference" "JP6" (at 83.82 95.25 0)
+    (property "Reference" "JP?" (at 83.82 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 90.17 93.98 0)
@@ -4126,10 +4288,10 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP6") (unit 1)
+          (reference "JP?") (unit 1)
         )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "JP23") (unit 1)
+          (reference "JP45") (unit 1)
         )
       )
     )
@@ -4138,7 +4300,7 @@
   (symbol (lib_id "power:GND") (at 203.2 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a72a4a73-5616-498b-9fc2-713957815b1d)
-    (property "Reference" "#PWR093" (at 209.55 57.15 0)
+    (property "Reference" "#PWR0144" (at 209.55 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 57.15 90)
@@ -4154,7 +4316,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -4163,7 +4325,7 @@
   (symbol (lib_id "power:GND") (at 57.15 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aaa47e72-7711-4f2a-9a8e-06b2bc73178f)
-    (property "Reference" "#PWR0100" (at 57.15 149.86 0)
+    (property "Reference" "#PWR0126" (at 57.15 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 148.59 0)
@@ -4179,7 +4341,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -4188,7 +4350,7 @@
   (symbol (lib_id "meshium_duo:E5V") (at 66.04 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid adfffbc3-abde-4bed-90ac-9d6de3ef4c0d)
-    (property "Reference" "#PWR0101" (at 62.23 55.88 0)
+    (property "Reference" "#PWR0127" (at 62.23 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "E5V" (at 69.85 55.88 90)
@@ -4204,7 +4366,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -4213,7 +4375,7 @@
   (symbol (lib_id "power:GND") (at 240.03 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b01e75b7-2e77-484b-87c6-e7d958515294)
-    (property "Reference" "#PWR095" (at 240.03 148.59 0)
+    (property "Reference" "#PWR0147" (at 240.03 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 147.32 0)
@@ -4229,7 +4391,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -4238,7 +4400,7 @@
   (symbol (lib_id "power:GND") (at 113.03 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b97c6860-a322-43ec-a444-7aaf6cd20a1c)
-    (property "Reference" "#PWR081" (at 106.68 64.77 0)
+    (property "Reference" "#PWR0136" (at 106.68 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 64.77 90)
@@ -4254,7 +4416,35 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0136") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 115.57 180.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ba29d8c0-5951-41b4-81f3-66cee023169b)
+    (property "Reference" "#PWR?" (at 115.57 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 115.57 185.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 115.57 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 115.57 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b06e1390-a616-45a4-b6b6-db6e8b78a808))
+    (instances
+      (project "meshium_duo"
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -4263,7 +4453,7 @@
   (symbol (lib_id "power:VDDA") (at 240.03 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc1b0f16-721c-4c37-8e15-1fc918091d32)
-    (property "Reference" "#PWR094" (at 240.03 50.8 0)
+    (property "Reference" "#PWR0146" (at 240.03 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 240.03 41.91 0)
@@ -4279,7 +4469,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -4288,7 +4478,7 @@
   (symbol (lib_id "power:+3V3") (at 113.03 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be8a8cae-5e5e-41bc-aa81-f9a07a305bf5)
-    (property "Reference" "#PWR078" (at 116.84 57.15 0)
+    (property "Reference" "#PWR0134" (at 116.84 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 109.22 57.15 90)
@@ -4304,7 +4494,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -4313,7 +4503,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 90.17 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1900243-1e3f-48cc-b741-fba822e34fdb)
-    (property "Reference" "JP6" (at 83.82 31.75 0)
+    (property "Reference" "JP?" (at 83.82 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 90.17 30.48 0)
@@ -4330,10 +4520,10 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP6") (unit 1)
+          (reference "JP?") (unit 1)
         )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "JP29") (unit 1)
+          (reference "JP43") (unit 1)
         )
       )
     )
@@ -4342,7 +4532,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 33.02 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3eb24b6-9017-46c4-8f4b-0f4b9259ee8f)
-    (property "Reference" "JP9" (at 26.67 87.63 0)
+    (property "Reference" "JP?" (at 26.67 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 33.02 85.09 0)
@@ -4359,10 +4549,10 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP9") (unit 1)
+          (reference "JP?") (unit 1)
         )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "JP47") (unit 1)
+          (reference "JP42") (unit 1)
         )
       )
     )
@@ -4371,7 +4561,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 120.65 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca5d235d-e436-402a-a670-1f84ee49760d)
-    (property "Reference" "J12" (at 121.92 45.72 0)
+    (property "Reference" "J14" (at 121.92 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x08_Odd_Even" (at 121.92 45.72 0)
@@ -4402,7 +4592,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "J12") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -4411,7 +4601,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x10_Odd_Even") (at 191.77 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cba25c5f-babc-4a56-9a58-92363f2a5490)
-    (property "Reference" "J13" (at 193.04 45.72 0)
+    (property "Reference" "J17" (at 193.04 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x10_Odd_Even" (at 193.04 45.72 0)
@@ -4446,7 +4636,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "J13") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -4455,7 +4645,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x15_Odd_Even") (at 120.65 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cee3fc09-d096-49ae-a6d4-d3f906998f75)
-    (property "Reference" "J14" (at 121.92 88.9 0)
+    (property "Reference" "J15" (at 121.92 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x15_Odd_Even" (at 121.92 88.9 0)
@@ -4500,7 +4690,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "J14") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -4509,7 +4699,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 90.17 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf1b56e8-e84e-463d-a55f-16765dd890f1)
-    (property "Reference" "JP9" (at 83.82 104.14 0)
+    (property "Reference" "JP?" (at 83.82 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 90.17 101.6 0)
@@ -4526,10 +4716,10 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP9") (unit 1)
+          (reference "JP?") (unit 1)
         )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "JP25") (unit 1)
+          (reference "JP47") (unit 1)
         )
       )
     )
@@ -4538,7 +4728,7 @@
   (symbol (lib_id "power:GND") (at 39.37 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5990276-792f-4273-a91f-7f98f01b7924)
-    (property "Reference" "#PWR099" (at 39.37 149.86 0)
+    (property "Reference" "#PWR0125" (at 39.37 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 148.59 0)
@@ -4554,7 +4744,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -4563,7 +4753,7 @@
   (symbol (lib_id "power:GND") (at 257.81 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0b5cccf-ed9a-42bb-9d17-4f04866051e5)
-    (property "Reference" "#PWR097" (at 257.81 148.59 0)
+    (property "Reference" "#PWR0148" (at 257.81 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 257.81 147.32 0)
@@ -4579,7 +4769,39 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0148") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 118.11 172.72 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e3fa5a0e-60ea-4314-8ba7-6db06121eb4f)
+    (property "Reference" "J?" (at 119.38 173.355 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x02_Pin" (at 120.65 173.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 118.11 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 118.11 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 21fc3444-7176-470d-8325-fd3aa6642799))
+    (pin "2" (uuid 59822a90-a004-4821-a8c9-ad27d122e84d))
+    (instances
+      (project "meshium_duo"
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
+          (reference "J?") (unit 1)
+        )
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
+          (reference "J?") (unit 1)
+        )
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -4588,7 +4810,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 90.17 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed4fcb67-a800-4a93-8546-9ffaa5f33257)
-    (property "Reference" "JP9" (at 83.82 35.56 0)
+    (property "Reference" "JP?" (at 83.82 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 90.17 33.02 0)
@@ -4605,10 +4827,10 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP9") (unit 1)
+          (reference "JP?") (unit 1)
         )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "JP32") (unit 1)
+          (reference "JP44") (unit 1)
         )
       )
     )
@@ -4617,7 +4839,7 @@
   (symbol (lib_id "power:GND") (at 130.81 105.41 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7f4233a-2995-4460-8b10-8b212b1e9f5a)
-    (property "Reference" "#PWR087" (at 137.16 105.41 0)
+    (property "Reference" "#PWR0139" (at 137.16 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 105.41 90)
@@ -4633,7 +4855,7 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -4642,7 +4864,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 90.17 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff118db7-c732-440e-a5fb-885bf66d658e)
-    (property "Reference" "JP9" (at 83.82 99.06 0)
+    (property "Reference" "JP?" (at 83.82 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 90.17 96.52 0)
@@ -4659,10 +4881,10 @@
     (instances
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP9") (unit 1)
+          (reference "JP?") (unit 1)
         )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
-          (reference "JP24") (unit 1)
+          (reference "JP46") (unit 1)
         )
       )
     )
