@@ -5,6 +5,58 @@
   (paper "A3")
 
   (lib_symbols
+    (symbol "+3V3_PER_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3_PER_1" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3_PER\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_PER_1_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_PER_1_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3_PER" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -425,6 +477,58 @@
         )
       )
     )
+    (symbol "E5V_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "E5V_1" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"E5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "E5V_1_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "E5V_1_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "E5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Jumper:Jumper_2_Bridged" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)))
@@ -590,11 +694,11 @@
         )
       )
     )
-    (symbol "meshium_duo:+3V3_PER" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "U5V_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3V3_PER" (at 0 3.556 0)
+      (property "Value" "U5V_1" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -606,10 +710,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3_PER\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"U5V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3V3_PER_0_1"
+      (symbol "U5V_1_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -635,18 +739,18 @@
           (fill (type none))
         )
       )
-      (symbol "+3V3_PER_1_1"
+      (symbol "U5V_1_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (name "U5V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
-    (symbol "meshium_duo:E5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "VIN_5V_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "E5V" (at 0 3.556 0)
+      (property "Value" "VIN_5V_1" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -658,10 +762,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"E5V\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"VIN_5V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "E5V_0_1"
+      (symbol "VIN_5V_1_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -687,9 +791,9 @@
           (fill (type none))
         )
       )
-      (symbol "E5V_1_1"
+      (symbol "VIN_5V_1_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V0" (effects (font (size 1.27 1.27))))
+          (name "VIN_5V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -804,58 +908,6 @@
         )
       )
     )
-    (symbol "meshium_duo:U5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "U5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"U5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "U5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "U5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V0" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "meshium_duo:VIN" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -904,58 +956,6 @@
       (symbol "VIN_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
           (name "VIN" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "meshium_duo:VIN_5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VIN_5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VIN_5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VIN_5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VIN_5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V0" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2190,6 +2190,31 @@
     )
   )
 
+  (symbol (lib_name "+3V3_PER_1") (lib_id "meshium_duo:+3V3_PER") (at 359.41 219.71 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3b7b69d6-b407-4dd4-b8a6-cb02523d144a)
+    (property "Reference" "#PWR0154" (at 355.6 219.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3_PER" (at 363.22 219.71 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 359.41 219.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 359.41 219.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d1cb2093-fad9-4f26-92f6-32f9a3d67806))
+    (instances
+      (project "meshium_duo"
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
+          (reference "#PWR0154") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 190.5 243.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41cab72e-c50f-4a0b-a55a-4d8021d3e070)
@@ -2403,31 +2428,6 @@
     )
   )
 
-  (symbol (lib_id "meshium_duo:+3V3_PER") (at 359.41 219.71 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5b8f6b8e-2aca-47a6-8886-bf0f35d3ce00)
-    (property "Reference" "#PWR015" (at 355.6 219.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3_PER" (at 363.22 219.71 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 359.41 219.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 359.41 219.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c2f87e15-fc07-4443-81fd-a0ee05ac9d14))
-    (instances
-      (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
-          (reference "#PWR015") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small") (at 248.92 217.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61369bf1-9b49-4d6a-bd2a-eafd51ff6aa8)
@@ -2449,31 +2449,6 @@
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "R5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "meshium_duo:VIN_5V") (at 226.06 179.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 61467f9c-bbbc-4539-b388-8db00058de38)
-    (property "Reference" "#PWR08" (at 226.06 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VIN_5V" (at 226.06 173.99 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 226.06 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 226.06 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d8188dce-39c1-4ce3-8b47-6c6d39bd1c5d))
-    (instances
-      (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2556,6 +2531,31 @@
     )
   )
 
+  (symbol (lib_name "U5V_1") (lib_id "meshium_duo:U5V") (at 158.75 210.82 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6dcfd329-dab7-45e7-bcef-947153115404)
+    (property "Reference" "#PWR0151" (at 158.75 214.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "U5V" (at 158.75 205.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 158.75 210.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 158.75 210.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e6f8987a-482f-4394-94bb-b98fc01e9c39))
+    (instances
+      (project "meshium_duo"
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
+          (reference "#PWR0151") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 162.56 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74ff6ef7-e31d-41c5-8022-26bfa2410213)
@@ -2582,56 +2582,6 @@
     )
   )
 
-  (symbol (lib_id "meshium_duo:E5V") (at 226.06 214.63 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7690da55-1bc7-44ac-9b2f-68408676e898)
-    (property "Reference" "#PWR09" (at 229.87 214.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "E5V" (at 222.25 214.63 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 226.06 214.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 226.06 214.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 28de4b4d-fb55-4558-bf28-f0d06a0189d8))
-    (instances
-      (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
-          (reference "#PWR09") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "meshium_duo:U5V") (at 158.75 210.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7a57d736-ba84-4112-b4bb-19523b93f490)
-    (property "Reference" "#PWR04" (at 158.75 214.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "U5V" (at 158.75 205.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 158.75 210.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 158.75 210.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b5ee6730-3a52-40b2-a5f0-2e10472be4e3))
-    (instances
-      (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+3V3") (at 345.44 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ba4f8c0-e6d3-42e4-ab7b-29edb15e11ab)
@@ -2652,31 +2602,6 @@
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "meshium_duo:VIN") (at 149.86 182.88 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 83afa142-8da8-425a-971f-bbd0bd66721d)
-    (property "Reference" "#PWR01" (at 153.67 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VIN" (at 146.05 182.88 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 149.86 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 149.86 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 41744690-0f2c-478f-a756-18bb71e8d4c8))
-    (instances
-      (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
-          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2765,6 +2690,31 @@
     )
   )
 
+  (symbol (lib_name "E5V_1") (lib_id "meshium_duo:E5V") (at 226.06 214.63 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a2845674-2043-4436-b825-ca09d93f20c0)
+    (property "Reference" "#PWR0153" (at 229.87 214.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "E5V" (at 222.25 214.63 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 226.06 214.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.06 214.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 89be55b9-65ec-47c5-a0eb-802f6b5e8af2))
+    (instances
+      (project "meshium_duo"
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
+          (reference "#PWR0153") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small") (at 166.37 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b26b0bd4-19e4-4cf2-9b85-91af4517d165)
@@ -2786,6 +2736,31 @@
       (project "meshium_duo"
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "meshium_duo:VIN") (at 149.86 182.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b68a9f89-54f5-47d1-9fec-8dc3655e50c4)
+    (property "Reference" "#PWR0150" (at 153.67 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VIN" (at 146.05 182.88 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 149.86 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 149.86 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3363e41d-d8cc-4ad0-8ba0-e938cb5ef227))
+    (instances
+      (project "meshium_duo"
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -2818,6 +2793,31 @@
         )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "VIN_5V_1") (lib_id "meshium_duo:VIN_5V") (at 226.06 179.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c7cf1f56-a04c-4f59-a917-c477cb956f52)
+    (property "Reference" "#PWR0152" (at 226.06 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VIN_5V" (at 226.06 173.99 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 226.06 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.06 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5b6c8b69-3ca7-4dc3-81ee-b33db45183e5))
+    (instances
+      (project "meshium_duo"
+        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
