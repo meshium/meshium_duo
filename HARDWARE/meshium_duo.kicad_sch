@@ -1972,7 +1972,7 @@
   (symbol (lib_id "Device:R_Small") (at 312.42 223.52 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12821b97-143e-4285-ada0-2922935c11bc)
-    (property "Reference" "R?" (at 317.5 222.25 0)
+    (property "Reference" "R6" (at 317.5 222.25 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "15K" (at 317.5 224.79 0)
@@ -1988,12 +1988,6 @@
     (pin "2" (uuid 5af1dbbe-a093-40c2-85e6-5c2b01cd1206))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "R?") (unit 1)
-        )
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/191f4f98-48ae-4893-bf0a-75f1c9b9512d"
-          (reference "R?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "R6") (unit 1)
         )
@@ -2139,7 +2133,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 190.5 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 350975c4-a110-4557-924b-dc3f2b0605e5)
-    (property "Reference" "JP?" (at 190.5 208.28 0)
+    (property "Reference" "JP1" (at 190.5 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 190.5 208.28 0)
@@ -2155,9 +2149,6 @@
     (pin "2" (uuid ccb3cf12-e875-423c-954d-d702100ad168))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "JP1") (unit 1)
         )
@@ -2345,7 +2336,7 @@
   (symbol (lib_id "Device:R_Small") (at 208.28 187.96 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4dd808fd-7a7d-4e66-a478-890953cb28c6)
-    (property "Reference" "R?" (at 208.28 185.42 90)
+    (property "Reference" "R4" (at 208.28 185.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K" (at 208.28 190.5 90)
@@ -2361,12 +2352,6 @@
     (pin "2" (uuid 1ade6fb5-1098-49a0-91ca-a7d12134f1ba))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "R?") (unit 1)
-        )
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/191f4f98-48ae-4893-bf0a-75f1c9b9512d"
-          (reference "R?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "R4") (unit 1)
         )
@@ -2610,7 +2595,7 @@
   (symbol (lib_id "Device:R_Small") (at 318.77 219.71 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87ac22e0-e50e-47af-850c-165801217b69)
-    (property "Reference" "R?" (at 318.77 214.63 90)
+    (property "Reference" "R7" (at 318.77 214.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K" (at 318.77 217.17 90)
@@ -2626,12 +2611,6 @@
     (pin "2" (uuid 8a628863-d774-45f6-a0cc-ad0ab1a8d823))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "R?") (unit 1)
-        )
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/191f4f98-48ae-4893-bf0a-75f1c9b9512d"
-          (reference "R?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "R7") (unit 1)
         )
@@ -2769,7 +2748,7 @@
   (symbol (lib_id "Device:R_Small") (at 201.93 191.77 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c685a929-69c5-48e8-991f-efa6ef05f55e)
-    (property "Reference" "R?" (at 200.66 190.5 0)
+    (property "Reference" "R3" (at 200.66 190.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "19K" (at 200.66 193.04 0)
@@ -2785,12 +2764,6 @@
     (pin "2" (uuid a4ed6865-18ad-4bff-ad00-6cff5e961336))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "R?") (unit 1)
-        )
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/191f4f98-48ae-4893-bf0a-75f1c9b9512d"
-          (reference "R?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "R3") (unit 1)
         )
@@ -2940,7 +2913,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 337.82 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfc511b5-0719-4a67-9102-6dc00bca98ec)
-    (property "Reference" "JP?" (at 337.82 209.55 0)
+    (property "Reference" "JP2" (at 337.82 209.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 337.82 209.55 0)
@@ -2956,9 +2929,6 @@
     (pin "2" (uuid e1978c7d-daeb-47db-9108-0993a4b042fe))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "JP2") (unit 1)
         )
@@ -2969,7 +2939,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 351.79 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e90b54e2-a8fc-4910-beaa-7fc74c0d38a4)
-    (property "Reference" "JP?" (at 351.79 217.17 0)
+    (property "Reference" "JP3" (at 351.79 217.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 351.79 217.17 0)
@@ -2985,9 +2955,6 @@
     (pin "2" (uuid fbea41af-aa87-42e8-b375-dfb7000ed143))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "JP3") (unit 1)
         )
@@ -3024,7 +2991,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 353.06 207.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f22d576e-1d3d-421e-93ac-64b2445f309d)
-    (property "Reference" "J?" (at 354.33 207.645 90)
+    (property "Reference" "J2" (at 354.33 207.645 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02_Pin" (at 355.6 207.645 0)
@@ -3040,9 +3007,6 @@
     (pin "2" (uuid c681452e-e7b5-4e66-9db8-1fcc143616a6))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "J?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
           (reference "J2") (unit 1)
         )

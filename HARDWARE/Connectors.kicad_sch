@@ -4002,7 +4002,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 33.02 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ef94560-d3ff-4993-9ce7-1343167fb3b6)
-    (property "Reference" "JP?" (at 26.67 85.09 0)
+    (property "Reference" "JP41" (at 26.67 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 33.02 82.55 0)
@@ -4018,9 +4018,6 @@
     (pin "2" (uuid 9cfd1d2c-a78b-4c79-b4c3-50cdaac03b79))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "JP41") (unit 1)
         )
@@ -4081,7 +4078,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 128.27 172.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ec2ec36-7766-4180-9482-f73eb6a5312f)
-    (property "Reference" "J?" (at 129.54 173.355 90)
+    (property "Reference" "J16" (at 129.54 173.355 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02_Pin" (at 130.81 173.355 0)
@@ -4097,12 +4094,6 @@
     (pin "2" (uuid 8f3f4541-9925-434c-bd4b-48367c6287f6))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "J?") (unit 1)
-        )
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
-          (reference "J?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "J16") (unit 1)
         )
@@ -4296,7 +4287,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 90.17 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a64b86ec-2c30-4391-a83b-4d2e46c4a63f)
-    (property "Reference" "JP?" (at 83.82 95.25 0)
+    (property "Reference" "JP45" (at 83.82 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 90.17 93.98 0)
@@ -4312,9 +4303,6 @@
     (pin "2" (uuid a6473f33-fdfe-4114-8d07-cf11555fc572))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "JP45") (unit 1)
         )
@@ -4425,7 +4413,7 @@
   (symbol (lib_id "power:GND") (at 115.57 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba29d8c0-5951-41b4-81f3-66cee023169b)
-    (property "Reference" "#PWR?" (at 115.57 186.69 0)
+    (property "Reference" "#PWR0138" (at 115.57 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 185.42 0)
@@ -4440,9 +4428,6 @@
     (pin "1" (uuid b06e1390-a616-45a4-b6b6-db6e8b78a808))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "#PWR0138") (unit 1)
         )
@@ -4503,7 +4488,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 90.17 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1900243-1e3f-48cc-b741-fba822e34fdb)
-    (property "Reference" "JP?" (at 83.82 31.75 0)
+    (property "Reference" "JP43" (at 83.82 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 90.17 30.48 0)
@@ -4519,9 +4504,6 @@
     (pin "2" (uuid 2643d25c-a7d8-4551-bf66-53f5a30bc00d))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "JP43") (unit 1)
         )
@@ -4532,7 +4514,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 33.02 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3eb24b6-9017-46c4-8f4b-0f4b9259ee8f)
-    (property "Reference" "JP?" (at 26.67 87.63 0)
+    (property "Reference" "JP42" (at 26.67 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 33.02 85.09 0)
@@ -4548,9 +4530,6 @@
     (pin "2" (uuid 5431c032-2b76-48dd-a59c-3a33c8d1bfe6))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "JP42") (unit 1)
         )
@@ -4699,7 +4678,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 90.17 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf1b56e8-e84e-463d-a55f-16765dd890f1)
-    (property "Reference" "JP?" (at 83.82 104.14 0)
+    (property "Reference" "JP47" (at 83.82 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 90.17 101.6 0)
@@ -4715,9 +4694,6 @@
     (pin "2" (uuid 55d940d2-9444-49ec-a68d-9ffbd8aaf341))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "JP47") (unit 1)
         )
@@ -4778,7 +4754,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 118.11 172.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3fa5a0e-60ea-4314-8ba7-6db06121eb4f)
-    (property "Reference" "J?" (at 119.38 173.355 90)
+    (property "Reference" "J13" (at 119.38 173.355 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02_Pin" (at 120.65 173.355 0)
@@ -4794,12 +4770,6 @@
     (pin "2" (uuid 59822a90-a004-4821-a8c9-ad27d122e84d))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "J?") (unit 1)
-        )
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c"
-          (reference "J?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "J13") (unit 1)
         )
@@ -4810,7 +4780,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 90.17 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed4fcb67-a800-4a93-8546-9ffaa5f33257)
-    (property "Reference" "JP?" (at 83.82 35.56 0)
+    (property "Reference" "JP44" (at 83.82 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 90.17 33.02 0)
@@ -4826,9 +4796,6 @@
     (pin "2" (uuid 8c560c30-32d9-40f3-a715-1ab1b99e64fa))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "JP44") (unit 1)
         )
@@ -4864,7 +4831,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 90.17 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff118db7-c732-440e-a5fb-885bf66d658e)
-    (property "Reference" "JP?" (at 83.82 99.06 0)
+    (property "Reference" "JP46" (at 83.82 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 90.17 96.52 0)
@@ -4880,9 +4847,6 @@
     (pin "2" (uuid 6e9abe1e-bdef-4207-9d50-7c2421dd1b89))
     (instances
       (project "meshium_duo"
-        (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/4c1314f5-8ce3-41c8-9fa4-b5bc01ef554b"
-          (reference "JP?") (unit 1)
-        )
         (path "/2783b917-8d7b-4d69-a31c-61fb9333015c/b6a51085-368c-402e-8235-8439715b747c"
           (reference "JP46") (unit 1)
         )
